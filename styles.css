@@ -325,7 +325,40 @@ Colors section end */
 /* Projects page end */
 
 /* Projects filter beginning */
+.projects-filter {
+    display: flex;
+    justify-content: end;
+}
 
+.projects-filter ul {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    transition: all .3s ease-out;
+}
+
+.projects-filter li {
+    transition: all .3s ease-out;
+    margin-left: 2rem;
+}
+
+.filter-btn {
+    font-family: inherit;
+    font-size: medium;
+    font-weight: bold;
+    color: var(--midnight-blue);
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+
+.filter-btn:hover {
+    transform: translateY(-2px);
+}
 /* Projects filter end */
 
 /* Keyframes beginning */
