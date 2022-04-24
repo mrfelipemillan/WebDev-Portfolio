@@ -177,7 +177,7 @@ body {
 Colors section end */
 
 /* Projects teaser beginning */
-.projects-teaser-container {
+.projects-teaser-container, .projects-container {
     width: 60%;
     display: block;
     align-items: center;
@@ -187,7 +187,7 @@ Colors section end */
     margin-bottom: 2rem;
 }
 
-.projects-teaser-container h1 {
+.projects-teaser-container h1, .projects-container h1 {
     display: inline-block;
     font-size: 2em;
     border-bottom: 1px solid var(--tiffany-blue);
@@ -319,6 +319,10 @@ Colors section end */
     transform: translateY(-5px);
 }
 /* Footer end */
+
+/* Projects' page beginning */
+
+/* Projects page end */
 
 /* Keyframes beginning */
 @keyframes swing
