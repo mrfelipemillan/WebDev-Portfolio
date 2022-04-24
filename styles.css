@@ -183,7 +183,7 @@ Colors section end */
     align-items: center;
     margin-inline-start: auto;
     margin-inline-end: auto;
-    padding-top: 3.5rem;
+    padding-top: 4rem;
     margin-bottom: 2rem;
 }
 
@@ -320,9 +320,13 @@ Colors section end */
 }
 /* Footer end */
 
-/* Projects' page beginning */
+/* Projects page beginning */
 
 /* Projects page end */
+
+/* Projects filter beginning */
+
+/* Projects filter end */
 
 /* Keyframes beginning */
 @keyframes swing
